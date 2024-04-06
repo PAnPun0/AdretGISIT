@@ -20,10 +20,101 @@ class _mapsState extends State<maps> {
               initialCenter: LatLng(61.993364, 130.00000),
               initialZoom: 9.2,
               ),
+              
               children: [
                 TileLayer(
                   urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                   userAgentPackageName: 'com.example.app',
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
+                ),
+                MarkerLayer(
+                   markers: [
+                    Marker(
+                      point: LatLng(61.993364, 130.00000),
+                      width: 80,
+                      height: 80,
+                      child: FlutterLogo(),
+                    ),
+                  ],
                 ),
               ],
             ),
