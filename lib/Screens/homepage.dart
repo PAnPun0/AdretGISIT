@@ -11,6 +11,7 @@ class HomePage extends StatefulWidget {
 
   @override
   State<HomePage> createState() => _HomePageState();
+  
 }
 
 class _HomePageState extends State<HomePage> {
@@ -32,11 +33,6 @@ class _HomePageState extends State<HomePage> {
       body: Row(
         
         children: [
-            Image.asset(
-              'assets/Logo.png',
-                  height: 35.0,
-                  filterQuality: FilterQuality.high,
-                  ),
           SideNavigationBar(
             selectedIndex: selectedIndex,
             items: const [
@@ -59,7 +55,10 @@ class _HomePageState extends State<HomePage> {
               SideNavigationBarItem(
                 icon: Icons.groups,
                 label: 'О нас',
+                
               ),
+              
+              
             ],
             onTap: (index) {
               setState(() {

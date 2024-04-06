@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "871859213428",
-    "project_id": "gishackathon-35fe9",
-    "storage_bucket": "gishackathon-35fe9.appspot.com"
+    "project_number": "957843438680",
+    "project_id": "gishackathon2",
+    "storage_bucket": "gishackathon2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:871859213428:android:809583fbb1242ffa9a6d21",
+        "mobilesdk_app_id": "1:957843438680:android:c9c9b22af2ef198a295e2d",
         "android_client_info": {
           "package_name": "com.example.gishackathon"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBospqhW5n3il14ldngK5uvT8CI6vyPm0E"
+          "current_key": "AIzaSyB5GAIubJAV961gIFeZEgOcP_oEfYXyeUY"
         }
       ],
       "services": {

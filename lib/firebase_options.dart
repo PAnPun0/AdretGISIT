@@ -44,38 +44,37 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB-feGmMpkuHF1rAY4G769YZBmGw1DzwL0',
-    appId: '1:871859213428:web:3437218c43125d5c9a6d21',
-    messagingSenderId: '871859213428',
-    projectId: 'gishackathon-35fe9',
-    authDomain: 'gishackathon-35fe9.firebaseapp.com',
-    storageBucket: 'gishackathon-35fe9.appspot.com',
-    measurementId: 'G-VW2CT5DL5E',
+    apiKey: 'AIzaSyDjl37Tnw-ZTTvVXjTS8VJd-_VJt9ZTqBw',
+    appId: '1:957843438680:web:3c498b910969b42d295e2d',
+    messagingSenderId: '957843438680',
+    projectId: 'gishackathon2',
+    authDomain: 'gishackathon2.firebaseapp.com',
+    storageBucket: 'gishackathon2.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBospqhW5n3il14ldngK5uvT8CI6vyPm0E',
-    appId: '1:871859213428:android:809583fbb1242ffa9a6d21',
-    messagingSenderId: '871859213428',
-    projectId: 'gishackathon-35fe9',
-    storageBucket: 'gishackathon-35fe9.appspot.com',
+    apiKey: 'AIzaSyB5GAIubJAV961gIFeZEgOcP_oEfYXyeUY',
+    appId: '1:957843438680:android:c9c9b22af2ef198a295e2d',
+    messagingSenderId: '957843438680',
+    projectId: 'gishackathon2',
+    storageBucket: 'gishackathon2.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAbL-IoLEUG3whGtq8XeQR9zf4sHcCrAaA',
-    appId: '1:871859213428:ios:9d7566ddceec72f79a6d21',
-    messagingSenderId: '871859213428',
-    projectId: 'gishackathon-35fe9',
-    storageBucket: 'gishackathon-35fe9.appspot.com',
+    apiKey: 'AIzaSyBPu6Osb825ZAz7aGHfk9K81AWpP-LLMJ4',
+    appId: '1:957843438680:ios:0aa73048268e8c40295e2d',
+    messagingSenderId: '957843438680',
+    projectId: 'gishackathon2',
+    storageBucket: 'gishackathon2.appspot.com',
     iosBundleId: 'com.example.gishackathon',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAbL-IoLEUG3whGtq8XeQR9zf4sHcCrAaA',
-    appId: '1:871859213428:ios:71422d868bf071a39a6d21',
-    messagingSenderId: '871859213428',
-    projectId: 'gishackathon-35fe9',
-    storageBucket: 'gishackathon-35fe9.appspot.com',
+    apiKey: 'AIzaSyBPu6Osb825ZAz7aGHfk9K81AWpP-LLMJ4',
+    appId: '1:957843438680:ios:4aa3bda3a390e965295e2d',
+    messagingSenderId: '957843438680',
+    projectId: 'gishackathon2',
+    storageBucket: 'gishackathon2.appspot.com',
     iosBundleId: 'com.example.gishackathon.RunnerTests',
   );
 }

@@ -17,8 +17,8 @@ class _mapsState extends State<maps> {
         children: [
           FlutterMap(
             options: MapOptions(
-              initialCenter: LatLng(51.509364, -0.128928),
-              initialZoom: 3.2,
+              initialCenter: LatLng(61.993364, 130.00000),
+              initialZoom: 9.2,
               ),
               children: [
                 TileLayer(
