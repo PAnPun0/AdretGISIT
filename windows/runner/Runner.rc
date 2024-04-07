@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "gishackathon" "\0"
+            VALUE "CompanyName", "All Stars" "\0"
+            VALUE "FileDescription", "a programm that makes forecasting the potential of renewable energy sources easier" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "gishackathon" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "gishackathon.exe" "\0"
-            VALUE "ProductName", "gishackathon" "\0"
+            VALUE "InternalName", "Adret" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 AllStars.com All rights reserved." "\0"
+            VALUE "OriginalFilename", "Adret.exe" "\0"
+            VALUE "ProductName", "Adret" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -13,10 +13,8 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Container(
-          child: IconButton(
-            onPressed: signUserOut,icon: Icon(Icons.logout),
-          ),
+        child: IconButton(
+          onPressed: signUserOut,icon: Icon(Icons.logout, color: Colors.black, size: 50,),
         ),
       ),
     );

@@ -37,57 +37,59 @@ class _HomePageState extends State<HomePage> {
             width: 1,
             ),
           ),
-        child: Row(
-          children: [
+      
+        child: Container( 
+          child: Row( 
             
-            SideNavigationBar(
-              
-              selectedIndex: selectedIndex,
-              items: const [
-                SideNavigationBarItem(
-                  icon: Icons.map,
-                  label: 'Карта',
-                ),
-                SideNavigationBarItem(
-                  icon: Icons.analytics,
-                  label: 'Аналитика',
-                ),
-                SideNavigationBarItem(
-                  icon: Icons.person,
-                  label: 'Профиль',
-                ),
-                SideNavigationBarItem(
-                  icon: Icons.settings,
-                  label: 'Настройки',
-                ),
-                SideNavigationBarItem(
-                  icon: Icons.groups,
-                  label: 'О нас',
+            children: [
+              const SizedBox(height: 90),
+              Image.asset("assets/LoginLogo.png", width:70),
+              SideNavigationBar(
+                selectedIndex: selectedIndex,
+                items: const [
+                  SideNavigationBarItem(
+                    icon: Icons.map,
+                    label: 'Карта',
+                  ),
+                  SideNavigationBarItem(
+                    icon: Icons.analytics,
+                    label: 'Аналитика',
+                  ),
+                  SideNavigationBarItem(
+                    icon: Icons.person,
+                    label: 'Профиль',
+                  ),
+                  SideNavigationBarItem(
+                    icon: Icons.settings,
+                    label: 'Настройки',
+                    
+                  ),
+                  SideNavigationBarItem(
+                    icon: Icons.groups,
+                    label: 'О нас',
+                  ),
+                
                   
-                ),
-              
-                
-                
-                
-              ],
-              onTap: (index) {
-                setState(() {
-                  selectedIndex = index;
-                });
-              },
-              theme: SideNavigationBarTheme(
-                togglerTheme: SideNavigationBarTogglerTheme.standard(),
-                itemTheme: SideNavigationBarItemTheme.standard(),
-                dividerTheme: SideNavigationBarDividerTheme.standard(),
-            ),
-            ),
-            
-        
-            /// Make it take the rest of the available width
-            Expanded(
-              child: views.elementAt(selectedIndex),
-            )
-          ],
+                  
+                  
+                ],
+                onTap: (index) {
+                  setState(() {
+                    selectedIndex = index;
+                  });
+                },
+                theme: SideNavigationBarTheme(
+                  togglerTheme: SideNavigationBarTogglerTheme.standard(),
+                  itemTheme: SideNavigationBarItemTheme.standard(),
+                  dividerTheme: SideNavigationBarDividerTheme.standard(),
+              ),
+              ),
+              /// Make it take the rest of the available width
+              Expanded(
+                child: views.elementAt(selectedIndex),
+              )
+            ],
+          ),
         ),
       ),
     );

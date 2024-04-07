@@ -11,7 +11,7 @@ class _aboutusState extends State<aboutus> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
-    );
+      body: Image.asset("assets/Team.png")
+      );
   }
 }

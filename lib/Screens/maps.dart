@@ -26,7 +26,7 @@ class _mapsState extends State<maps> {
                   urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                   userAgentPackageName: 'com.example.app',
                 ),
-                MarkerLayer(
+                const MarkerLayer(
                    markers: [
                     Marker(
                       point: LatLng(61.993364, 130.00000),
@@ -36,10 +36,10 @@ class _mapsState extends State<maps> {
                     ),
                   ],
                 ),
-                MarkerLayer(
+                const MarkerLayer(
                    markers: [
                     Marker(
-                      point: LatLng(61.993364, 130.00000),
+                      point: LatLng(61.993364, 124.00000),
                       width: 80,
                       height: 80,
                       child: FlutterLogo(),
@@ -49,7 +49,7 @@ class _mapsState extends State<maps> {
                 MarkerLayer(
                    markers: [
                     Marker(
-                      point: LatLng(61.993364, 130.00000),
+                      point: LatLng(59.993364, 119.00000),
                       width: 80,
                       height: 80,
                       child: FlutterLogo(),
@@ -59,7 +59,7 @@ class _mapsState extends State<maps> {
                 MarkerLayer(
                    markers: [
                     Marker(
-                      point: LatLng(61.993364, 130.00000),
+                      point: LatLng(63.993364, 140.00000),
                       width: 80,
                       height: 80,
                       child: FlutterLogo(),
@@ -69,7 +69,7 @@ class _mapsState extends State<maps> {
                 MarkerLayer(
                    markers: [
                     Marker(
-                      point: LatLng(61.993364, 130.00000),
+                      point: LatLng(66.993364, 136.00000),
                       width: 80,
                       height: 80,
                       child: FlutterLogo(),
@@ -79,7 +79,7 @@ class _mapsState extends State<maps> {
                 MarkerLayer(
                    markers: [
                     Marker(
-                      point: LatLng(61.993364, 130.00000),
+                      point: LatLng(59.993364, 126.00000),
                       width: 80,
                       height: 80,
                       child: FlutterLogo(),
@@ -89,7 +89,7 @@ class _mapsState extends State<maps> {
                 MarkerLayer(
                    markers: [
                     Marker(
-                      point: LatLng(61.993364, 130.00000),
+                      point: LatLng(65.993364, 149.00000),
                       width: 80,
                       height: 80,
                       child: FlutterLogo(),
@@ -99,17 +99,7 @@ class _mapsState extends State<maps> {
                 MarkerLayer(
                    markers: [
                     Marker(
-                      point: LatLng(61.993364, 130.00000),
-                      width: 80,
-                      height: 80,
-                      child: FlutterLogo(),
-                    ),
-                  ],
-                ),
-                MarkerLayer(
-                   markers: [
-                    Marker(
-                      point: LatLng(61.993364, 130.00000),
+                      point: LatLng(64.993364, 125.00000),
                       width: 80,
                       height: 80,
                       child: FlutterLogo(),
